@@ -1,7 +1,6 @@
 import streamlit as st
 import altair as alt
 
-from seleniumwire import webdriver
 
 from bs4 import BeautifulSoup
 import requests
@@ -17,7 +16,6 @@ import xlrd
 import openpyxl
 
 
-# from selenium import webdriver
 
 
 
