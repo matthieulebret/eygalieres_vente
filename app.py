@@ -90,7 +90,7 @@ col5,col6 = st.columns(2)
 with col5:
     st.metric('Surface m2','{:,.0f}'.format(df[2]['OutdoorSurface']))
 with col6:
-    st.metric('Prix de vente eur','{:,.0f}'.format(df[0]['NetVendeur']))
+    st.metric('Prix de vente eur','{:,.0f}'.format(df[2]['NetVendeur']))
 st.subheader('Visites')
 if df[2]['Visits']:
     visitdf = pd.DataFrame(df[2]['Visits']).iloc[:,2:]
